@@ -29,7 +29,6 @@ Emoji | Represents
 - :page_facing_up: [Optimizing Dynamically-Typed Object-Oriented Languages With Polymorphic Inline Caches][optimizing-dynamic-languages] - Hölzle, Chambers and Ungar
 - :page_facing_up: [Adaptive optimization for self: reconciling high performance with exploratory programming][optimization-for-self]  - Hölzle
 - :page_facing_up: [A Survey of Adaptive Optimization in Virtual Machines][survey-vm] - Arnold, Fink, Grove, Hind and Sweeney
-
 - :page_facing_up: [A Simple Graph-Based Intermediate Representation][graph-based-ir] - Click
 - :page_facing_up: [Combining Analyses, Combining Optimizations][combining-analyses-combining-optimizations] - Click
 
