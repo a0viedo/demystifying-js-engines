@@ -1,5 +1,7 @@
 This is a list of resources I used to learn about virtual machines in general, from an architecture point of view to optimizations and garbage collection strategies. I've also put together some parts into a talk format, you can see the slides [here][slides].
 
+Contributions are very welcome!
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
