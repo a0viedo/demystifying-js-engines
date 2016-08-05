@@ -47,6 +47,7 @@ Emoji | Represents
 - :computer: [Jank Busters Part One][jank-busters-1] - V8's blog
 - :computer: [JavaScript and V8’s TurboFan][js-and-v8-turbofan] - Ariya Hidayat
 - :page_facing_up: [Instrumenting V8 to Measure the Efficacy of Dynamic Optimizations on Production Code][instrumenting-v8] - Maass and Shafer
+- :computer: [V8 resources][v8-resources] - Vyacheslav Egorov
 
 ### JavaScriptCore
 - :computer: [Introducing FTL JIT][introducing-ftl-jit] - Webkit blog
@@ -137,3 +138,5 @@ Emoji | Represents
 [v8-jits-resources]: https://github.com/thlorenz/v8-perf/blob/master/compiler.md
 [AWFY]: https://arewefastyet.com/
 [slides]: https://slides.com/a0viedo/demystifying-js-engines
+
+[v8-resources]: http://mrale.ph/v8/resources.html
