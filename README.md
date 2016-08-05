@@ -1,3 +1,5 @@
+This is a list of resources I used to learn about virtual machines in general, from an architecture point of view to optimizations and garbage collection strategies. I've also put together some parts into a talk format, you can see the slides [here][slides].
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
@@ -132,3 +134,4 @@ Emoji | Represents
 
 [v8-jits-resources]: https://github.com/thlorenz/v8-perf/blob/master/compiler.md
 [AWFY]: https://arewefastyet.com/
+[slides]: https://slides.com/a0viedo/demystifying-js-engines
