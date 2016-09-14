@@ -20,11 +20,12 @@ Contributions are very welcome!
 
 Emoji | Represents 
 :---: | --- 
-:computer: | Blog post
+:bar_chart: | Blog post
 :page_facing_up: | White paper
-:pencil: | Code
+:computer: | Code
 :microphone: | Podcast
 :movie_camera: | Slides
+:pencil: | Documentation
 
 # Virtual machines
 
@@ -38,30 +39,34 @@ Emoji | Represents
 
 ## JavaScript Engines
 ### V8
-- :computer: [A tour of V8 garbage collection][a-tour-of-V8-gc] - Jay Conrod
+- :bar_chart: [A tour of V8 garbage collection][a-tour-of-V8-gc] - Jay Conrod
 - [V8's compilers resources][v8-jits-resources] - Thorsten Lorenz
 - [V8's garbage collector resources][v8-gc-resources] - Thorsten Lorenz
 - :movie_camera: [TurboFan JIT Design][v8-turbofan-jit-design] - Ben L. Titzer
-- :computer: [Sea of Nodes][sea-of-nodes] - Fedor Indutny
-- :computer: [Digging into TurboFan JIT][digging-into-turbofan-jit] - V8's blog
-- :computer: [Jank Busters Part One][jank-busters-1] - V8's blog
-- :computer: [JavaScript and V8’s TurboFan][js-and-v8-turbofan] - Ariya Hidayat
+- :bar_chart: [Sea of Nodes][sea-of-nodes] - Fedor Indutny
+- :bar_chart: [Digging into TurboFan JIT][digging-into-turbofan-jit] - V8's blog
+- :bar_chart: [Jank Busters Part One][jank-busters-1] - V8's blog
+- :bar_chart: [JavaScript and V8’s TurboFan][js-and-v8-turbofan] - Ariya Hidayat
 - :page_facing_up: [Instrumenting V8 to Measure the Efficacy of Dynamic Optimizations on Production Code][instrumenting-v8] - Maass and Shafer
-- :computer: [V8 resources][v8-resources] - Vyacheslav Egorov
+- :bar_chart: [V8 resources][v8-resources] - Vyacheslav Egorov
 
 ### JavaScriptCore
-- :computer: [Introducing FTL JIT][introducing-ftl-jit] - Webkit blog
-- :computer: [Introducing B3 JIT compiler][introducing-b3-jit] - Webkit blog
+- :bar_chart: [Introducing FTL JIT][introducing-ftl-jit] - Webkit blog
+- :bar_chart: [Introducing B3 JIT compiler][introducing-b3-jit] - Webkit blog
+- :pencil: [Bare Bones Backend][b3-docs] - Webkit Documentation
+- :pencil: [B3 Assembly IR][b3-assembly-ir-docs] - Webkit Documentation
+- :pencil: [B3 IR][b3-ir-docs] - Webkit Documentation
+- :pencil: [FTL JIT][ftl-docs] - Webkit Documentation
 
 ### ChakraCore
 
-- :pencil: [List of performance hint descriptions][chakracore-perf-hints] - ChakraCore's repository
+- :computer: [List of performance hint descriptions][chakracore-perf-hints] - ChakraCore's repository
 - :microphone: [Chakra, Microsoft's Open Source JavaScript Engine][javascript-air-chakracore] - JavaScriptAir
-- [ChakraCore Architecture overview][chakracore-arquitecture-overview] - ChakraCore's wiki
+- :pencil: [ChakraCore Architecture overview][chakracore-arquitecture-overview] - ChakraCore's wiki
 
 ### SpiderMonkey
-- :computer: [Compacting Garbage Collection in SpiderMonkey][compacting-gc-in-spidermonkey] - Mozilla Hacks
-- :computer: [SpiderMonkey Internals][spidermonkey-internals] - MDN
+- :bar_chart: [Compacting Garbage Collection in SpiderMonkey][compacting-gc-in-spidermonkey] - Mozilla Hacks
+- :bar_chart: [SpiderMonkey Internals][spidermonkey-internals] - MDN
 
 
 ### Benchmarks
@@ -74,11 +79,11 @@ Emoji | Represents
 
 ## Inline caches
 
-- :computer: [PICing on JavaScript for fun and profit][picing] - Chris Leary
+- :bar_chart: [PICing on JavaScript for fun and profit][picing] - Chris Leary
 
 ## Garbage collection
 
-- :computer: [Back to basic: Series on dynamic memory management][dynamic-mem-mgmt] - MSDN
+- :bar_chart: [Back to basic: Series on dynamic memory management][dynamic-mem-mgmt] - MSDN
 - [Memory Management Reference][memory-management-reference]
 - :page_facing_up: [A non-recursive list compacting algorithm][a-nonrecursive-list-compacting-algorithm] - Cheney
 - :page_facing_up: [Generation Scavenging][generation-scavenging] - Ungar
@@ -140,3 +145,10 @@ Emoji | Represents
 [slides]: https://slides.com/a0viedo/demystifying-js-engines
 
 [v8-resources]: http://mrale.ph/v8/resources.html
+
+
+[ftl-docs]: http://trac.webkit.org/wiki/FTLJIT
+[jsc-docs]: http://trac.webkit.org/wiki/JavaScriptCore
+[b3-docs]: https://webkit.org/docs/b3/
+[b3-assembly-ir-docs]: https://webkit.org/docs/b3/assembly-intermediate-representation.html
+[b3-ir-docs]: https://webkit.org/docs/b3/intermediate-representation.html
