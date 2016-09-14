@@ -57,6 +57,7 @@ Emoji | Represents
 - :pencil: [B3 Assembly IR][b3-assembly-ir-docs] - Webkit Documentation
 - :pencil: [B3 IR][b3-ir-docs] - Webkit Documentation
 - :pencil: [FTL JIT][ftl-docs] - Webkit Documentation
+- :bar_chart: [Inside javascriptcore's low-level interpreter][jsc-low-level-interpreter] - Andy Wingo's blog
 
 ### ChakraCore
 
@@ -152,3 +153,4 @@ Emoji | Represents
 [b3-docs]: https://webkit.org/docs/b3/
 [b3-assembly-ir-docs]: https://webkit.org/docs/b3/assembly-intermediate-representation.html
 [b3-ir-docs]: https://webkit.org/docs/b3/intermediate-representation.html
+[jsc-low-level-interpreter]: https://wingolog.org/archives/2012/06/27/inside-javascriptcores-low-level-interpreter
