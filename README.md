@@ -49,6 +49,7 @@ Emoji | Represents
 - :bar_chart: [JavaScript and V8’s TurboFan][js-and-v8-turbofan] - Ariya Hidayat
 - :page_facing_up: [Instrumenting V8 to Measure the Efficacy of Dynamic Optimizations on Production Code][instrumenting-v8] - Maass and Shafer
 - :bar_chart: [V8 resources][v8-resources] - Vyacheslav Egorov
+- :bar_chart: [V8: Behind the Scenes (November Edition)][v8-behind-the-scenes-november-edition] - Benedikt Meurer
 
 ### JavaScriptCore
 - :bar_chart: [Introducing FTL JIT][introducing-ftl-jit] - Webkit blog
@@ -68,6 +69,8 @@ Emoji | Represents
 ### SpiderMonkey
 - :bar_chart: [Compacting Garbage Collection in SpiderMonkey][compacting-gc-in-spidermonkey] - Mozilla Hacks
 - :bar_chart: [SpiderMonkey Internals][spidermonkey-internals] - MDN
+- :bar_chart: [IonMonkey: Evil on your behalf][ionmonkey-evil-on-your-behalf] - Mozilla's JavaScript blog
+- :bar_chart: [IonMonkey: Optimizing Away][ionmonkey-optimizing-away] - Mozilla's JavaScript blog
 
 
 ### Benchmarks
@@ -154,3 +157,6 @@ Emoji | Represents
 [b3-assembly-ir-docs]: https://webkit.org/docs/b3/assembly-intermediate-representation.html
 [b3-ir-docs]: https://webkit.org/docs/b3/intermediate-representation.html
 [jsc-low-level-interpreter]: https://wingolog.org/archives/2012/06/27/inside-javascriptcores-low-level-interpreter
+[ionmonkey-optimizing-away]: https://blog.mozilla.org/javascript/2014/07/15/ionmonkey-optimizing-away/
+[ionmonkey-evil-on-your-behalf]: https://blog.mozilla.org/javascript/2016/07/05/ionmonkey-evil-on-your-behalf/
+[v8-behind-the-scenes-november-edition]: http://benediktmeurer.de/2016/11/25/v8-behind-the-scenes-november-edition/
