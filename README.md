@@ -36,12 +36,12 @@ Emoji | Represents
 - :page_facing_up: [A Survey of Adaptive Optimization in Virtual Machines][survey-vm] - Arnold, Fink, Grove, Hind and Sweeney
 - :page_facing_up: [A Simple Graph-Based Intermediate Representation][graph-based-ir] - Click
 - :page_facing_up: [Combining Analyses, Combining Optimizations][combining-analyses-combining-optimizations] - Click
+- :page_facing_up: [A Brief History of Just-In-Time][brief-jit-history] - Aycock
 
 ## JavaScript Engines
 ### V8
 - :bar_chart: [A tour of V8 garbage collection][a-tour-of-V8-gc] - Jay Conrod
-- [V8's compilers resources][v8-jits-resources] - Thorsten Lorenz
-- [V8's garbage collector resources][v8-gc-resources] - Thorsten Lorenz
+- [V8 perf][v8-perf] - Thorsten Lorenz
 - :movie_camera: [TurboFan JIT Design][v8-turbofan-jit-design] - Ben L. Titzer
 - :bar_chart: [Sea of Nodes][sea-of-nodes] - Fedor Indutny
 - :bar_chart: [Digging into TurboFan JIT][digging-into-turbofan-jit] - V8's blog
@@ -50,6 +50,7 @@ Emoji | Represents
 - :page_facing_up: [Instrumenting V8 to Measure the Efficacy of Dynamic Optimizations on Production Code][instrumenting-v8] - Maass and Shafer
 - :bar_chart: [V8 resources][v8-resources] - Vyacheslav Egorov
 - :bar_chart: [V8: Behind the Scenes (November Edition)][v8-behind-the-scenes-november-edition] - Benedikt Meurer
+- :bar_chart: [The story of a V8 performance cliff in React][v8-performance-cliff] - Benedikt Meurer and Mathias Bynens
 
 ### JavaScriptCore
 - :bar_chart: [Introducing FTL JIT][introducing-ftl-jit] - Webkit blog
@@ -71,6 +72,7 @@ Emoji | Represents
 - :bar_chart: [SpiderMonkey Internals][spidermonkey-internals] - MDN
 - :bar_chart: [IonMonkey: Evil on your behalf][ionmonkey-evil-on-your-behalf] - Mozilla's JavaScript blog
 - :bar_chart: [IonMonkey: Optimizing Away][ionmonkey-optimizing-away] - Mozilla's JavaScript blog
+- :bar_chart: [The Unofficial Incomplete Spidermonkey Bibliography][spidermonkey-bibliography] - Matthew Gaudet
 
 
 ### Benchmarks
@@ -80,6 +82,7 @@ Emoji | Represents
 - [Kraken][kraken]
 - [Dromaeo][dromaeo]
 - [AreWeFastYet?][AWFY]
+- [Web Tooling Benchmark][web-tooling-benchmark]
 
 ## Inline caches
 
@@ -87,6 +90,7 @@ Emoji | Represents
 
 ## Garbage collection
 
+- :page_facing_up: [On-the-fly Garbage Collection: An Exercise in Cooperation][on-the-fly-gc] - Dijkstra, Lamport, Martin, Scholten, and Steffens
 - :bar_chart: [Back to basic: Series on dynamic memory management][dynamic-mem-mgmt] - MSDN
 - [Memory Management Reference][memory-management-reference]
 - :page_facing_up: [A non-recursive list compacting algorithm][a-nonrecursive-list-compacting-algorithm] - Cheney
@@ -98,7 +102,13 @@ Emoji | Represents
 - :page_facing_up: ['Infant Mortality' and Generational Garbage Collection][infant-mortality-and-gc] - Baker
 - :page_facing_up: [Fast Conservative Garbage Collection ][fast-conservative-gc] - Shahriyar, Blackburn and McKinley
 
-
+## Exploitation
+- :bar_chart: [Introduction to SpiderMonkey exploitation][intro-to-spidermonkey-exploitation] - Axel "0vercl0k" Souchet
+- :bar_chart: [Attacking JavaScript Engines: A case study of JavaScriptCore and CVE-2016-4622][attacking-js-engines] - Samuel Groß
+- :bar_chart: [Weaponization of a JavaScriptCore Vulnerability][weaponization-of-a-jsc-vuln] - RET2's blog
+- :bar_chart: [Don't Follow The Masses: Bug Hunting in JavaScript Engines][bug-hunting-in-js-engines] - Dimitri Fourny and Moritz Jodeit
+- :bar_chart: [A journey into IonMonkey: root-causing CVE-2019-9810][journey-into-ionmonkey] - Axel "0vercl0k" Souchet
+- :bar_chart: [Introduction to TurboFan][introduction-to-turbofan] -Jeremy Fetiveau
 
 
 [picing]: http://blog.cdleary.com/2010/09/picing-on-javascript-for-fun-and-profit
@@ -150,7 +160,9 @@ Emoji | Represents
 [video]: https://www.youtube.com/watch?v=g1H9FEBrcqs
 
 [v8-resources]: http://mrale.ph/v8/resources.html
-
+[v8-performance-cliff]: https://v8.dev/blog/react-cliff
+[v8-perf]: https://github.com/thlorenz/v8-perf
+[web-tooling-benchmark]: https://v8.github.io/web-tooling-benchmark/
 
 [ftl-docs]: http://trac.webkit.org/wiki/FTLJIT
 [jsc-docs]: http://trac.webkit.org/wiki/JavaScriptCore
@@ -161,3 +173,13 @@ Emoji | Represents
 [ionmonkey-optimizing-away]: https://blog.mozilla.org/javascript/2014/07/15/ionmonkey-optimizing-away/
 [ionmonkey-evil-on-your-behalf]: https://blog.mozilla.org/javascript/2016/07/05/ionmonkey-evil-on-your-behalf/
 [v8-behind-the-scenes-november-edition]: http://benediktmeurer.de/2016/11/25/v8-behind-the-scenes-november-edition/
+
+[intro-to-spidermonkey-exploitation]: https://doar-e.github.io/blog/2018/11/19/introduction-to-spidermonkey-exploitation/
+[attacking-js-engines]: http://phrack.org/papers/attacking_javascript_engines.html
+[brief-jit-history]: http://eecs.ucf.edu/~dcm/Teaching/COT4810-Spring2011/Literature/JustInTimeCompilation.pdf
+[spidermonkey-bibliography]: https://mgaudet.github.io/SpiderMonkeyBibliography/
+[on-the-fly-gc]: https://www.microsoft.com/en-us/research/uploads/prod/2016/12/On-the-fly-Garbage-Collection.pdf
+[weaponization-of-a-jsc-vuln]: https://blog.ret2.io/2018/07/11/pwn2own-2018-jsc-exploit/
+[bug-hunting-in-js-engines]: https://labs.bluefrostsecurity.de/blog/2019/04/29/dont-follow-the-masses-bug-hunting-in-javascript-engines/
+[journey-into-ionmonkey]: https://doar-e.github.io/blog/2019/06/17/a-journey-into-ionmonkey-root-causing-cve-2019-9810/
+[introduction-to-turbofan]: https://doar-e.github.io/blog/2019/01/28/introduction-to-turbofan/
